@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-09T11:53:02 IST" name="Suite" finished-at="2022-12-09T11:54:13 IST" duration-ms="70666">
+    <groups>
+    </groups>
+    <test started-at="2022-12-09T11:53:02 IST" name="Test" finished-at="2022-12-09T11:54:13 IST" duration-ms="70666">
+      <class name="ddtExample.NOPCommApp">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:ddtExample.NOPCommApp@942a29c]" started-at="2022-12-09T11:53:02 IST" name="launchApp" finished-at="2022-12-09T11:53:10 IST" duration-ms="7514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="verifyLoginFeatureWithInValid(java.lang.String,java.lang.String)[pri:0, instance:ddtExample.NOPCommApp@942a29c]" started-at="2022-12-09T11:53:10 IST" name="verifyLoginFeatureWithInValid" data-provider="sanityData" finished-at="2022-12-09T11:53:20 IST" duration-ms="10479" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rupal@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Demo@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFeatureWithInValid -->
+        <test-method signature="verifyLoginFeatureWithInValid(java.lang.String,java.lang.String)[pri:0, instance:ddtExample.NOPCommApp@942a29c]" started-at="2022-12-09T11:53:20 IST" name="verifyLoginFeatureWithInValid" data-provider="sanityData" finished-at="2022-12-09T11:53:31 IST" duration-ms="10483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anusha1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Demo@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFeatureWithInValid -->
+        <test-method signature="verifyLoginFeatureWithInValid(java.lang.String,java.lang.String)[pri:0, instance:ddtExample.NOPCommApp@942a29c]" started-at="2022-12-09T11:53:31 IST" name="verifyLoginFeatureWithInValid" data-provider="sanityData" finished-at="2022-12-09T11:53:41 IST" duration-ms="10494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pratyusha1@google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFeatureWithInValid -->
+        <test-method signature="verifyLoginFeatureWithInValid(java.lang.String,java.lang.String)[pri:0, instance:ddtExample.NOPCommApp@942a29c]" started-at="2022-12-09T11:53:41 IST" name="verifyLoginFeatureWithInValid" data-provider="sanityData" finished-at="2022-12-09T11:53:51 IST" duration-ms="10400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Surya1@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[random@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFeatureWithInValid -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:ddtExample.NOPCommApp@942a29c]" started-at="2022-12-09T11:53:51 IST" name="closeApp" finished-at="2022-12-09T11:54:13 IST" duration-ms="21258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- ddtExample.NOPCommApp -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
